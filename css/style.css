@@ -1,0 +1,24 @@
+/*Reset */
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*Tag */
+
+
+/*Classi */
+
+.bg-header{
+    background-color: rgb(33, 37, 41);
+}
+
+.img-header{
+    width:3em;
+    height: auto;
+
+}
+
+
+/*ID */
