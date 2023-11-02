@@ -6,19 +6,28 @@
 }
 
 /*Tag */
-
+a{
+    color: white;
+    text-decoration: none;
+}
 
 /*Classi */
 
-.bg-header{
-    background-color: rgb(33, 37, 41);
-}
 
 .img-header{
     width:3em;
     height: auto;
+}
+
+.search-button{
+    background-color:transparent;
+    border-color: grey;
+    color:grey;
 
 }
+
+
+
 
 
 /*ID */
