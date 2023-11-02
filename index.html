@@ -20,8 +20,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <div class="container-fluid">
-
-          <a class="navbar-brand" href="#"> <img src="./img/duck.png" alt="logo" class="img-fluid img-header"> </a> <!--logo -->
+           <!--logo -->
+          <a class="navbar-brand" href="#"> <img src="./img/duck.png" alt="logo" class="img-fluid img-header"> </a>
           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -52,12 +52,12 @@
 
     <main>
       <div class="container">
-        <div class="row">
+        <div class="row mt-5">
 
           <div class="col-8">
 
-            <div class="d-flex justify-content-between">
-              <h1>Catalogo Libri</h1>
+            <div class="d-flex justify-content-between mb-3">
+              <h2>Catalogo Libri</h2>
               <button type="button" class="btn btn-info">Aggiungi Libro</button>
             </div>
           
@@ -65,104 +65,189 @@
             <table class="table table-striped">
               <thead>
                 <tr>
-                <th>Titolo</th>
-                <th>Data di prestito</th>
-                <th>Stato</th>
-                <th>Azioni</th>
+                <th scope="col">Titolo</th>
+                <th scope="col">Data di prestito</th>
+                <th scope="col">Stato</th>
+                <th scope="col">Azioni</th>
                 </tr>
               </thead>
 
-              <tbody>
-                <tr>
+              <tbody class="align-middle">
+                <tr scope="row">
                   <td>I pilastri della terra</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i> </td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i> </td>
 
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>I promessi sposi</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button></td>
-                  <td>  <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i>  </td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Il signore degli anelli</td>
                   <td>18/10/2023</td>
                   <td><button type="button" class="btn btn-warning">In prestito</button></td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i> </td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Harry potter e la pietra filosofale</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button> </td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Il codice Da Vinci</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Shining</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button> </td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>La divina commedia</td>
                   <td>21/09/2023</td>
                   <td><button type="button" class="btn btn-warning">In prestito</button></td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Il trono di spade</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button> </td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Il mondo di Sofia</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-danger">Non disponibile</button></td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i> </td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i> </td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
                   <td>25/07/2023</td>
                   <td><button type="button" class="btn btn-warning">In prestito</button> </td>
-                  <td><i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td><i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>Il piccolo principe</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button> </td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
-                <tr>
+                <tr scope="row">
                   <td>La storia infinita</td>
                   <td>-</td>
                   <td><button type="button" class="btn btn-success">Disponibile</button> </td>
-                  <td> <i class="fa fa-pencil" aria-hidden="true"></i> <i class="fa fa-trash" aria-hidden="true"></i></td>
+                  <td> <i class="fa fa-pencil pen-trash-icon" aria-hidden="true"></i> <i class="fa fa-trash pen-trash-icon" aria-hidden="true"></i></td>
                 </tr>
 
               </tbody>
             </table>
           </div>
 
+
+          <!-- right section-->
           <div class="col-4">
+
+            <div class="card">   <!--CARD-->
+
+              <div class="card-body">
+                <h5 class="card-title">To do</h5>
+
+                <div class="form-check">        <!--CHECK BOX-->
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Chiamare segreteria
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Mandare avvisi prestiti scaduti
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Ordinare nuovi libri
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="card">   <!--CARD-->
+
+              <div class="card-body">
+                <h5 class="card-title">F.A.Q.</h5>
+
+
+                <div class="accordion">    <!--ACCORDION-->
+
+                  <div class="accordion-item">
+                    <h5 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Come aggiungere un nuovo libro?
+                      </button>
+                    </h5>
+                    <div id="collapseOne" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        Lorem
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h5 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Come posso accedere all'anagrafica utenti?
+                      </button>
+                    </h5>
+                    <div id="collapseOne" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        Lorem
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h5 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Posso usare questa dashboard da mobile?
+                      </button>
+                    </h5>
+                    <div id="collapseOne" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        Lorem
+                      </div>
+                    </div>
+                  </div>
+
+                
+
+              </div>
+            </div>
+
+
+            
           
 
 
